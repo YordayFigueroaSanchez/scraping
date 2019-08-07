@@ -82,7 +82,8 @@ public class Main {
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 		Transformer transformer = transformerFactory.newTransformer();
 		DOMSource source = new DOMSource(doc);
-		StreamResult result = new StreamResult(new File(nombreFichero + ".xml"));
+		String ruta = "dataXML\\";
+		StreamResult result = new StreamResult(new File(ruta,nombreFichero + ".xml"));
 
 		// StreamResult result = new StreamResult(new File("archivo.xml"));
 		// Si se quiere mostrar por la consola...
