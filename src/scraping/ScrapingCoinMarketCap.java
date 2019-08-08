@@ -23,7 +23,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.w3c.dom.Attr;
 
-public class Main {
+public class ScrapingCoinMarketCap {
 
 	public static final String xmlFilePath = "xmlfile.xml";
 
